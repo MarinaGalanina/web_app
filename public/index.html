@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Waveform App</title>
+    <link rel="stylesheet" href="scientific-audioplayer.css">
+    
+</head>
+<body>
+    <div class="upload-folder">
+        <input type="file" id="dataFolder" webkitdirectory="" directory="" onchange="loadUploadedData()" multiple>
+        <label for="dataFolder"><span class="plus-sign">+</span> Upload folder</label>
+    </div>
+    <select id="language-select">
+        <option value="en">English</option>
+        <option value="pl">Polish</option>
+        <option value="cs">Czech</option>
+      </select>
+    
+    <div id="waveform"></div>
+    <div class="regions-wrapper">
+        <button class="print-regions-button" onclick="printAllRegions()">Print Regions</button>
+        <div id="regionsContainer" class="print-regions-content"></div>
+    </div>
+    <div id="uploadedFiles"></div>
+    <div id="currentFileNameContainer"></div>
+    <div id="buttonContainer">
+        <button id="prevButton" onclick="loadPreviousFile()">&#8592;</button>
+        <button id="nextButton" onclick="loadNextFile()">&#8594;</button>
+    </div>
+    <div id="timeline">00:00</div>
+    <div class="control-buttons">
+        <div class="button-group">
+            <button onclick="backwardOneSecond()">Backward 1s</button>
+            <button onclick="increaseVolume()">Volume Up</button>
+        </div>
+    
+        <!-- Modified Play/Pause Button -->
+        <div onclick="togglePlayPause()" class="play-pause-button">
+            <span class="play-icon">&#9654;</span>
+            <span class="pause-icon">&#10074;&#10074;</span>
+        </div>
+    
+        <div class="button-group">
+            <button onclick="forwardOneSecond()">Forward 1s</button>
+            <button onclick="decreaseVolume()">Volume Down</button>
+        </div>
+    </div>    
+
+      
+      <!-- Button to trigger transcription -->
+    <div id="markerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="document.getElementById('markerModal').style.display = 'none;'">&times;</span>
+                <h2>Edit Marker</h2>
+            </div>
+            <div class="modal-body">
+                <label>Name:</label>
+                <input type="text" id="markerName" disabled> <!-- Disabled as the name serves as a unique identifier -->
+                <label>Time:</label>
+                <input type="text" id="markerTime">
+                <button id="saveMarker">Save</button>
+                <button id="cancelMarker">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="upload-container">
+        <button onclick="loadRegionsFromServer()">Load Regions from Whisper</button>
+    </div>
+    <button onclick="saveRegionsToTextFile()">Save Regions</button>
+    <button onclick="printUsedListContent()" class="print-list-button">Print UsedList Content</button>
+    <div id="usedListContent" ></div>
+  
+
+    
+
+
+    <button id="runPython">Run Whisper Script</button>
+    <div id="statusText"></div>
+    <button onclick="addMarker()">Add Region</button>
+    <button onclick="addMarkerAtTime()">Add Marker</button>
+    <input type="range" id="zoomSlider" min="1" max="100" value="1" oninput="setZoom(value)">
+    <label for="zoomSlider">Zoom Level</label>
+    <script src="https://unpkg.com/wavesurfer.js@2.1.2/dist/wavesurfer.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js@2.1.2/dist/plugin/wavesurfer.regions.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

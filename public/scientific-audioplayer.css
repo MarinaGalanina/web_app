@@ -1,0 +1,312 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f5f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; /* Adjusted for even spacing */
+    height: 100vh;
+}
+
+/* File Upload Styles */
+input[type="file"] {
+    display: none;
+}
+
+label:hover, .play-pause-button:hover {
+    background-color: #8a63bf;
+}
+
+label:hover {
+    background-color: #8a63bf;
+}
+
+#language-select {
+    position: absolute;
+    background-color: #8a63bf;
+    color: white;
+    left: 0;
+    top: 0; /* Adjust as needed */
+    width: 200px; /* Set the width as desired */
+    height: 40px; /* Set the height as desired */
+    font-size: 16px; /* Set the font size as desired */
+    padding: 5px; /* Add some padding for aesthetics */
+  }
+/* Waveform Styles */
+#waveform {
+    width: 80%;
+    height: 150px;
+    border: 1px solid #e0dfe7;
+    margin-top: 20px; /* Adjust as necessary to give enough space between elements */
+    margin-bottom: 20px;
+}
+#buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.language-buttons {
+    position: absolute; /* or 'fixed' if you want it to stay in place while scrolling */
+    left: 0;
+    top: 50%; /* adjust to position it vertically as needed */
+    transform: translateY(-50%); /* this will center the div on the y-axis based on its height */
+    z-index: 100; /* ensure it's above other elements */
+}
+
+.language-buttons button {
+    display: block; /* stack the buttons vertically */
+    margin: 5px 0; /* add some space between buttons */
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    padding: 8px 16px; /* Reduced padding */
+    margin: 0 10px; /* Margin */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Reduced font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition-duration: 0.4s; /* Transition effect */
+}
+
+
+button:hover {
+    background-color: white; /* White background on hover */
+    color: black; /* Black text on hover */
+}
+
+
+
+/* Button Styles */
+button {
+    background-color: #a77dcc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #8a63bf;
+}
+
+/* Slider Styles */
+input[type="range"] {
+    width: 80%;
+    margin: 20px 0;
+}
+
+label[for="zoomSlider"] {
+    display: block;  /* Display as block for stacking */
+    margin-top: 10px;
+    font-size: 1.1em;  /* Increase font size */
+    text-align: center;
+}
+
+.upload-folder {
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 0px; /* Removed negative margin */
+}
+
+.plus-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a77dcc;
+    width: 50px; /* Increased width */
+    height: 50px; /* Increased height */
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 1.8em; /* Adjusted font size */
+    transition: background-color 0.2s;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1em; /* Adjust font size as per your need */
+    margin-left: 10px; /* Space between the circle and the text */
+}
+
+
+
+.play-pause-button {
+    background-color: #a77dcc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Makes the button circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative; /* Positioning context for the play and pause icons */
+    transition: background-color 0.2s;
+}
+.play-icon, .pause-icon {
+    color: #ffffff;
+    display: none; /* Initially hide both icons */
+}
+
+/* Initially show the play icon */
+.play-pause-button .play-icon {
+    display: block;
+}
+
+/* On hover, hide play icon and show pause icon */
+.play-pause-button:hover .play-icon {
+    display: none;
+}
+
+.play-pause-button:hover .pause-icon {
+    display: block;
+}
+
+.control-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Spacing between buttons */
+}
+.volume-buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 5px; /* Spacing between the two buttons */
+    margin-top: 10px; /* Add some space above the volume buttons */
+}
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#timeline {
+    font-size: 20px;
+    padding: 1px 0;
+    margin-top: -5px;
+    font-weight: bold; 
+    padding: 10px 0;
+    text-align: center;
+    color: #6A1B9A;  /* Dark purple text */
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;  /* White outline */
+}
+.file-button {
+    display: inline-block;
+    background-color: #a77dcc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: center;
+    font-size: 16px; /* adjust as needed */
+}
+
+.file-button:hover {
+    background-color: #8a63bf;
+}
+.regions-wrapper {
+    position: absolute;
+    top: 40%;
+    right: 150px;
+    width: 250px; /* Adjust as needed for your layout */
+}
+.print-list-button {
+    position: absolute;
+    top: 40%;
+    left: 150px;
+    width: 250px; /* Adjust as needed for your layout */
+}
+.print-list-content {
+    position: sticky; /* Position the element absolutely */
+    left: 0; /* Align it to the left side of the nearest relatively positioned ancestor */
+    top: 0; /* Align it to the top of the page */
+    max-height: 200px;
+    overflow-y: auto;
+    padding-top: 10px; /* A little space between button and content */
+    color: #7D1B7E;
+    width: 20%; /* Set a width for the content area */
+}
+#usedListContent {
+    position: absolute; /* Position the element absolutely on the page */
+    left: 150px; /* 10px from the left edge of the viewport */
+    top: 350px; /* 50px from the top edge of the viewport to make space for the button */
+    width: 300px; /* Width of the box */
+    height: 300px; /* Height of the box */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    padding: 10px; /* Padding inside the box */
+    border: 1px solid #ccc; /* Border to make the box visible */
+    background-color: #fff; /* Background color for the content */
+}
+.print-regions-button {
+    position: sticky;
+    top: 0;
+    z-index: 2; /* Ensures the button stays on top of the regions list */
+}
+
+
+.print-regions-content {
+    max-height: 200px;
+    overflow-y: auto;
+    padding-top: 10px; /* A little space between button and content */
+    color: #7D1B7E;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
