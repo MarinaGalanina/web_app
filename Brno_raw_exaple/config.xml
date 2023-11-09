@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<TASK2>
+ <general>
+    <poolfile>../RAM_wordpool_SK.txt</poolfile> 	<!-- file with the pool of words, path is relative to the experiment directory -->
+	<wordlists>15</wordlists>   			<!-- experiment will end and after this number of trials -->		
+	<randomizewords>True</randomizewords> 		<!-- if false, words will not be randomized = fixed word order -->
+	<frombeginning>True</frombeginning>   		<!-- if true, words will be taken from beginning of the pool if the pool is bigger. -->
+	<savewordlist>True</savewordlist>		<!-- whether to save the used word list with the record -->
+	<deftext>Press SPACE to start</deftext>		<!-- default text for next trial -->
+	<deftext2> of 15 trials completed</deftext2>	<!-- default text for next trial with trial number at the begining. -->
+	<dontrecorddistract>False</dontrecorddistract>  <!-- the recording is paused during distract phase -->
+	<distractionsoundon>False</distractionsoundon>   <!-- if beep correct and wrong are played in the distraction phase -->
+	<textbrightness>150</textbrightness> 		<!-- 0..255 (0=black, 255=white) (Background color can be set in I4Tracking application) -->
+	<timewordon>1500</timewordon>			<!-- timeframe when the stimulus is present -->
+	<timewordoff>1000</timewordoff>			<!-- interstimulus interval -->
+	<timerecall>30000</timerecall>			<!-- timeframe of the recall phase-->
+	<timedistract>20000</timedistract>		<!-- timeframe of the recall phase-->
+	<recallcross>True</recallcross>			<!-- whether to show cross during the recall phase -->
+    <nodistract>False</nodistract>			<!-- if true, there will be no equations during the distract phase -->	
+	<countdown>5</countdown>			<!-- countdown from this value--> 
+	<fixcross>3</fixcross>				<!-- duration of fixation cross -->	
+	<showhint>True</showhint>			<!-- hint for experimenter during recall phase (will show only i 2 screen setup -->		
+	<soundon>False</soundon>			<!-- whether there are beeps for recall start, correct and wrong equation -->
+	<mouseexit>7</mouseexit>			<!-- whether it is possible to end the application by mouse clicks -->	
+	<textexittitle>Warning</textexittitle>			<!-- Caption of the exit dialog -->
+	<textexittextt>Are you sure you want to quit?</textexittextt>			<!-- Text of the exit dialog -->
+	<showarrow>False</showarrow >			<!-- show arrow to move between trials? -->
+	<listenonlyonarrow>False</listenonlyonarrow>	<!-- wheather the click works only on the arrow (default: you can click anywhere on the screen> -->
+	<showkeyboard>False</showkeyboard>		<!-- show virtual keyboard in distraction -->
+	<keytextbrightness>150</keytextbrightness>  <!-- 0..255 (0=black, 255=white) --> 
+	<scale>1.1</scale>						    <!-- 1=100% scale, 1920x1080, 0.5= 200%, 2736 x 1824x-->   
+	<audioonly>False</audioonly>			
+       	<extendedsoundrecording>True</extendedsoundrecording> <!-- record audio also in encoding and distract --> 
+        <jitter>True</jitter>				<!-- jitter in interval between word presentation -->
+        <jitterseed>1234</jitterseed>			<!-- jitter random seed, default 1234 -->
+	
+ </general>     
+</TASK2>

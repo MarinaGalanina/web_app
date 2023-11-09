@@ -1,0 +1,46 @@
+Numer dyplomu:	
+Imię:	Marina
+Drugie imię:	
+Nazwisko:	Galanina
+Status:	
+Kurs:	Kierunek: Inżynieria biomedyczna (WETI), II stopnia, stacjonarne, 2022/2023 - letni (obecnie sem. 2) - Aktywny
+Stopień/Tytuł:	mgr inż.
+Data złożenia pracy:	
+Przedłużony termin:	
+Temat:	
+Wykrywanie problemów przemocowych w rodzinie na podstawie analizy mowy dziecka za pomocą opracowanej aplikacji wspomagającej psychologa
+
+Temat po angielsku:	
+Detecting violence problems in the family based on the analysis of the child's speech with the help of the developed application supporting the psychologist 
+
+Język pracy:	
+Promotor:	prof. dr hab. inż. Bożena Kostek
+Recenzent:	
+Przewodniczący komisji:	
+Członek komisji:	
+Członek komisji:	
+Członek komisji:	
+Członek komisji:	
+Członek komisji:	
+Data egzaminu:	
+Data egzaminu II:	
+Miejsce egzaminu:	
+Średnia ocen:	
+Punkty kredytowe:	
+Ocena z pracy dyplomowej:	
+Ocena z egzaminu:	
+Wynik studiów:	
+Cel:	Celem pracy jest wspomaganie psychologa w wykrywaniu problemów przemocowych w rodzinie na podstawie analizy mowy dziecka  za pomocą opracowanej aplikacji. Dlatego drugim celem będzie przygotowanie aplikacji, która będzie działała na zasadzie wirtualnej zabawy z dzieckiem. W aplikacji zostanie wykorzystany  główny bohater-zabawka, tak, aby w formie gry można było prowadzić przez psychologa obserwację czy występuje przemoc w rodzinie. Przygotowane scenariusze (na podstawie stanu wiedzy) powinny też pozwolić na ocenę czy dziecko faktycznie wymaga dodatkowej obserwacji ukierunkowanej na przemoc domową. W tle działania aplikacji będą wykorzystany(e) algorytm(y) uczenia głębokiego, którego/których zadaniem jest automatyzacja procesu obserwacji.  
+Charakter:	
+Charakter po angielsku:	
+Data wydruku:	
+Komentarz:	
+Temat zarezerwowany dla studentki specjalności SI, kier. IBM
+
+Zadania do wykonania:	
+Przegląd literatury w temacie pracy dyplomowej
+Opracowanie projektu aplikacji oraz scenariuszy (współpraca z psychologiem)
+Przeprowadzenie wstępnych eksperymentów analizy mowy dziecka
+Implementacja wybranych algorytmów uczenia maszynowego do wspomagania decyzji czy występuje przemoc w rodzinie (na podstawie analizy mowy i ew. zachowań dziecka)
+Przeprowadzenie testów w warunkach gabinetu psychologicznego
+Analiza wyników i sformułowanie wniosków
