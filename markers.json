@@ -1,0 +1,107 @@
+[
+    {
+        "Audio path": "C:\\Users\\admin\\wavesurfer_app\\Brno_raw_exaple\\sound_recall01.wav",
+        "result": [
+            {
+                "word": " Mamy to, co?",
+                "start": 0.0,
+                "end": 2.0
+            }
+        ]
+    },
+    {
+        "Audio path": "C:\\Users\\admin\\wavesurfer_app\\Brno_raw_exaple\\sound_recall02.wav",
+        "result": [
+            {
+                "word": " To jest po meno, na sporo.",
+                "start": 0.0,
+                "end": 4.0
+            },
+            {
+                "word": " Lano,",
+                "start": 10.0,
+                "end": 12.0
+            },
+            {
+                "word": " pr\u0105,",
+                "start": 14.0,
+                "end": 16.0
+            },
+            {
+                "word": " masz,",
+                "start": 17.0,
+                "end": 20.0
+            },
+            {
+                "word": " bliska,",
+                "start": 23.0,
+                "end": 25.0
+            },
+            {
+                "word": " lat,",
+                "start": 27.0,
+                "end": 29.0
+            }
+        ]
+    },
+    {
+        "Audio path": "C:\\Users\\admin\\wavesurfer_app\\Brno_raw_exaple\\sound_recall03.wav",
+        "result": [
+            {
+                "word": " Zysa.",
+                "start": 0.0,
+                "end": 2.0
+            },
+            {
+                "word": " Ty si\u0119 skutasz po m\u0119\u017c\u0105ce.",
+                "start": 7.0,
+                "end": 9.0
+            },
+            {
+                "word": " M\u0142uchom.",
+                "start": 10.0,
+                "end": 12.0
+            },
+            {
+                "word": " Zysa.",
+                "start": 25.0,
+                "end": 27.0
+            },
+            {
+                "word": " Pr\u0105.",
+                "start": 27.0,
+                "end": 29.0
+            }
+        ]
+    },
+    {
+        "Audio path": "C:\\Users\\admin\\wavesurfer_app\\Brno_raw_exaple\\sound_recall04.wav",
+        "result": [
+            {
+                "word": " To jest pomys\u0142.",
+                "start": 0.0,
+                "end": 2.0
+            },
+            {
+                "word": " To jest pomys\u0142.",
+                "start": 8.0,
+                "end": 10.0
+            },
+            {
+                "word": " To jest pomys\u0142.",
+                "start": 16.0,
+                "end": 18.0
+            },
+            {
+                "word": " Pami\u0119taj.",
+                "start": 19.0,
+                "end": 21.0
+            },
+            {
+                "word": " Pami\u0119taj.",
+                "start": 27.0,
+                "end": 29.0
+            }
+        ]
+    }
+]

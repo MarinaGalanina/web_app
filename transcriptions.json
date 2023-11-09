@@ -1,0 +1,87 @@
+[
+    {
+        "Audio path": "C:\\Users\\admin\\wavesurfer_app\\Brno_raw_exaple\\sound_recall01.wav",
+        "result": [
+            {
+                "word": " M\u00e1 to kdy\u017e.",
+                "start": 0.0,
+                "end": 2.0
+            }
+        ]
+    },
+    {
+        "Audio path": "C:\\Users\\admin\\wavesurfer_app\\Brno_raw_exaple\\sound_recall02.wav",
+        "result": [
+            {
+                "word": " Sysk\u00faste spomeno?",
+                "start": 0.0,
+                "end": 2.0
+            },
+            {
+                "word": " Na svole.",
+                "start": 2.0,
+                "end": 4.0
+            },
+            {
+                "word": " L\u00e1no...",
+                "start": 10.0,
+                "end": 12.0
+            },
+            {
+                "word": " ...perom...",
+                "start": 14.0,
+                "end": 16.0
+            },
+            {
+                "word": " ...m\u00e1n...",
+                "start": 16.0,
+                "end": 18.0
+            },
+            {
+                "word": " ...postion.",
+                "start": 18.0,
+                "end": 20.0
+            },
+            {
+                "word": " ...l\u00ed\u0161ka...",
+                "start": 24.0,
+                "end": 26.0
+            },
+            {
+                "word": " ...pl\u00e1t...",
+                "start": 28.0,
+                "end": 29.0
+            }
+        ]
+    },
+    {
+        "Audio path": "C:\\Users\\admin\\wavesurfer_app\\Brno_raw_exaple\\sound_recall03.wav",
+        "result": [
+            {
+                "word": " Znesa.",
+                "start": 0.0,
+                "end": 2.0
+            },
+            {
+                "word": " Te\u010f si skut\u011bl pomem\u00e1nc\u00ed.",
+                "start": 7.0,
+                "end": 9.0
+            },
+            {
+                "word": " M\u016fho.",
+                "start": 10.0,
+                "end": 11.0
+            },
+            {
+                "word": " Znesa.",
+                "start": 25.0,
+                "end": 26.0
+            },
+            {
+                "word": " Prone.",
+                "start": 27.0,
+                "end": 28.0
+            }
+        ]
+    }
+]
